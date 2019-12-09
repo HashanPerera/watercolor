@@ -1,13 +1,119 @@
-li{
+body{
+	background-image:url("image/bg.gif");
+	background-position: 
+}
+
+.main{
+	margin-left:200px;
+	margin-bottom: 100px;
+	font-weight: bold; 
+	font-size: 1.15em;	
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.pub{
+	color: grey;
+}
+
+#first{
 	display:inline;
+	padding: 5px;
 }
 
-frame{
-	width:1024px;
-	height:728px;
+#image_1{
+	width: 940px;
+	height:327px;
+	border-style: double;
+	border-color: #E1DCDC;
+	border-width: 8px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 0px 0px #E1DCDC;
 }
 
-.inp1{
-margin-left:1000px
+.search_bar{
+	margin-top: 40px;
+	margin-left: 700px;
 }
 
+#inp{
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 200px;
+	height: 20px;
+	font-size: 15px;
+}
+
+#btn1{
+	left: 0;
+	border: 3px solid white;
+	border-radius: 20px;
+	background-color: #443F3F;
+	color: white;
+	width: 40px;
+	height: 40px;
+}
+
+.nav{
+}
+
+#middle{
+	font-size: 35px;
+	/* text-align:center; */
+	margin-left: 50px;
+	
+}
+
+.middle-image{
+	display: inline-block;
+	width: 30%;
+	margin-top: 10px;
+	
+}
+#second{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	
+}
+
+#img-2{
+	width: 100%;
+}
+
+#p1{
+	color:#e1820b;
+}
+
+
+footer.foot{
+	top:190px;
+	background-color:#777264;
+	padding-bottom: 65px;
+	padding-top: 65px;
+	margin: 0px;
+	width: 100%;
+}
+
+.ul-3{
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+
+#third, #third-1{
+	list-style-type: none;
+	color: white;
+	margin: 0px 0px 0px 180px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#third-1{
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+}
+
+#third{
+	font-family: 'Arial';
+}
